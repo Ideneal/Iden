@@ -1,0 +1,9 @@
+Iden è un CMS molto semplice e versatile rilasciato sotto
+licenza GPL che non richiede alcun supporto del linguaggio Sql.
+è stato scritto principalmente per
+essere usato da chi, come me, scrive codice molto spesso ;)
+
+Per l'installazione basta caricare il file 'install.php'
+scegliere la cartella dove verranno inseriti i post del menu,
+la cartella dove potrete inserire il vostro codice,
+l'username e la password e il gioco è fatto ;)
