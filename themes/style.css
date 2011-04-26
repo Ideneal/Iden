@@ -1,0 +1,90 @@
+body{   
+ background-color: black;
+ color: white;
+ font-size: 12px;
+ font-family: Courier New, Monospace;
+}
+
+div {
+position: relative;
+}
+
+table {
+font-size: 11px;
+}
+
+input, textarea
+{
+background-color: black;
+color: red;
+border: 1px solid #A9B8C2;
+}
+
+.menu {
+ color: red; 
+ font-size: 14px;
+ /*position: absolute;*/
+ border-bottom: 1px solid #282828;
+ height: 15px;
+ top: 9px;
+}
+
+.nnews {
+border-bottom: 1px solid red;
+border-left: 1px solid red;
+border-right: 1px solid red;
+border-top: 1px solid red;
+width: 300;
+/*height: 300;*/
+right: 0px;
+position: absolute;
+}
+
+.code {
+background: #282828;
+}
+
+div.main {
+font-size: 13px;
+text-align: left;
+border-bottom: 1px solid #282828;
+border-left: 1px solid red;
+border-right: 1px solid red;
+border-top: 1px solid red;
+width: 650px;
+height: 450px;
+overflow: auto;
+border-radius: 10px 10px 0px 0px;
+-moz-border-radius:10px 10px 0px 0px;
+-webkit-border-radius:10px 10px 0px 0px;
+}
+
+div.footer {
+font-size: 12px;
+text-align: right;
+border-bottom: 1px solid red;
+border-left: 1px solid red;
+border-right: 1px solid red;
+border-top: 1px solid #282828;
+width: 650px;
+height: 20px;
+border-radius: 0px 0px 10px 10px;
+-moz-border-radius:0px 0px 10px 10px;
+-webkit-border-radius:0px 0px 10px 10px;
+}
+
+/* SPAN not DIV ;) */
+span.menu a:visited, a:link {color: red}
+span.menu a:hover {color: white}
+
+a:link, a:visited {
+color: red;
+text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+color: white;
+text-decoration: none;
+}
+
+
