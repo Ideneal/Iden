@@ -35,9 +35,10 @@ class Iden{
 
 	
 	private function securityString($word){
+		$word=str_replace("../","",$word);
+		$word=str_replace(".","_",$word);
+		$word=str_replace("/","",$word);
 		$word = stripslashes(htmlentities($word));
-		str_replace(".","_",$word);
-		str_replace("/","",$word);
 		return $word;
 	}
 	
